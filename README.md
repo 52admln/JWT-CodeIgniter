@@ -8,9 +8,9 @@ JSON Web Token native library for PHP
 
 
 调用方法：
-`jwt_helper::validate(<token>)` 验证token
-`jwt_helper::decode(<token>)` 解码token
-`jwt_helper::create(<userId>)` 创建token userId 为你要存放的字段
+- `jwt_helper::validate(<token>)` 验证token
+- `jwt_helper::decode(<token>)` 解码token
+- `jwt_helper::create(<userId>)` 创建token userId 为你要存放的字段
 
 ## How to Use ?
 1. 复制 `helpers`、`libraries` 里面的文件到相应的目录
